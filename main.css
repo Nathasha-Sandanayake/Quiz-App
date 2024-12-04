@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-outer{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://i0.wp.com/www.kridha.net/wp-content/uploads/2021/01/Landscape-Vector-Illustration-Background.jpg?fit=960%2C540&ssl=1");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.inner-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+}
+
+.top-title-wrapper{
+    width:100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-title-wrapper h1{
+   text-align: center;
+   font-size: 23px;
+   margin: 0;
+   padding: 10px;
+}
+
+.controller-wrapper{
+    width: 100%;
+    height: 50px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controller-item{
+    height: 100%;
+    border: 1px solid red;
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-inner:first-child{
+  padding:0;
+}
+
+.item-inner{
+    background-color: white;
+    flex:1;
+    height: 100%;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+
+}
+
+.playground{
+    display: flex;
+    border: 1px solid red;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.button-bar{
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10px;
+}
